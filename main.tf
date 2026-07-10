@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "example" {
 
 variable "bucket_name" {
   type = string
-  default = "new-bucket-local"
+  default = "new-bucket-local-anup"
 }
 
 output "bucket_name" {
